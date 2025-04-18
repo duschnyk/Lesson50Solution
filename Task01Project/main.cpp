@@ -14,6 +14,16 @@ int main() {
 	cout << "sum upper main diag: " 
 		<< sum_elements_upper_main_diagonale(matrix, size) << endl;
 
+	cout << "sum below main diag: "
+		<< sum_elements_below_main_diagonale(matrix, size) << endl;
+	
+	cout << "sum upper add diag: "
+		<< sum_elements_upper_additional_diagonale(matrix, size) << endl;
+
+	cout << "sum below add diag: "
+		<< sum_elements_below_additional_diagonale(matrix, size) << endl;
+
+
 	system("pause");
 
 	return 0;
